@@ -1,0 +1,71 @@
+
+.accordion-title {
+    display: block;
+    padding: 1.25rem 1rem;
+    line-height: 1;
+    font-size: .75rem;
+    color: #8e130b;
+    position: relative;
+    border: 1px solid #e6e6e6;
+        border-bottom-color: rgb(230, 230, 230);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    border-bottom: 0;
+}
+
+/* tei:hi (Večina je italic) */
+.hi {
+    font-style: italic;
+}
+
+/* Siva obroba okoli vsebine */
+.border-content {
+    border: thin solid;
+    border-color: #8a8a8a;
+}
+
+.border-content-inner {
+    border-style: thin solid;
+    border-width: thin thin 0 thin;
+    border-color: #8a8a8a;
+}
+
+span.unclear {
+    background-color: #C0C0C0;
+}
+
+span.has-tip {
+    text-indent: 0em;
+    border-bottom: none;
+    display: initial;
+}
+
+/* loader */
+.preloader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #8e130b;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
